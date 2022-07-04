@@ -6,12 +6,18 @@ body {
 h1 {
   font-size: 50px;
 }
+h2 {
+  font-size: 40px;
+}
 
+p {
+  text-align: justify;
+}
 .fcolor {
   color: violet;
 }
 
-section {
+.container {
   display: flex;
   padding-bottom: 120px;
 }
@@ -50,4 +56,38 @@ section {
   background-image: url(images/dream-bg.png);
   background-repeat: no-repeat;
   background-position: right;
+}
+
+.thirdstep {
+  width: 40%;
+  box-shadow: 10px 10px 40px violet;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 50px;
+  border-radius: 5%;
+}
+
+.third-banner {
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.for-third-para {
+  padding-right: 50px;
+  padding-bottom: 10px;
+}
+#full-stack-dev {
+  border-right: 7px solid rgb(186, 130, 238);
+}
+#baby-web-dev {
+  border-right: 7px solid rgb(67, 10, 124);
+}
+
+footer p {
+  text-align: center;
+}
+
+.head {
+  text-align: center;
 }
